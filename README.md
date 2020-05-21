@@ -14,6 +14,7 @@ Implementation details:
   - Using JavaScript, the data points for a Spirograph curve with 'Bovard Auditorium' as the center, are generated and collected. A separate KML file is created using these points
   - This file is converted to shapefile using the converter mentioned below. The result will be a .zip file which will contain within it, shape data (.shp), a relational table (.dbf), and other optional files (.shx, .prj, .cpg).
   - Upload this shapefile in ArcGIS' online editor. Do 'Add -> Add Layer from File' to upload the shapefile and the spirograph curve should be visible on the map
+  - Note that the html file needs to be hosted on some webserver. If run locally, a CORS error would be generated
 
 Technologies used:
   -
