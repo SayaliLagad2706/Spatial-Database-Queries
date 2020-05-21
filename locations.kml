@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Folder><name>Libraries</name>
+<Placemark>
+<name>VKC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284000,34.021389</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Leavey</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282788,34.021749</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Doheny</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283765,34.020164</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Andrus</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290718,34.020077</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Seaver</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288794,34.019728</coordinates></Point>
+</Placemark></Folder>
+<Folder><name>Cafes</name>
+<Placemark>
+<name>Lemonade</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286138,34.020660</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Moreton</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285960,34.019857</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Galen</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287077,34.022944</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>LawCafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284414,34.018760</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282194,34.021779</coordinates></Point>
+</Placemark></Folder>
+<Folder><name>Parking</name>
+<Placemark>
+<name>PLotB</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282698,34.022877</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>PLotM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285048,34.023851</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>PLotV</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286057,34.024407</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>PLotL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288230,34.025270</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>PLot6</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290094,34.021765</coordinates></Point>
+</Placemark></Folder>
+
+<Placemark> 
+ <Polygon> <extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs>  <LinearRing>  
+  <coordinates>
+   -118.284414,34.01876,50 -118.290718,34.020077,50 -118.290094,34.021765,50 -118.28823,34.02527,50 -118.286057,34.024407,50 -118.282698,34.022877,50 -118.282194,34.021779,50 -118.284414,34.01876,50
+  </coordinates>
+ </LinearRing> </outerBoundaryIs> </Polygon>
+ 
+ <Style> 
+  <PolyStyle>  
+   <color>a00000ff</color>
+  <outline>1</outline>
+  </PolyStyle> 
+  <LineStyle>  
+   <color>FFFFFFFF</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+ <extrude>1</extrude>
+ <tessellate>1</tessellate>
+  <coordinates>
+  -118.284000,34.021389 -118.283765,34.020164 -118.284000,34.021389 -118.282788,34.021749 -118.284000,34.021389 -118.282194,34.021779 -118.284000,34.021389 -118.282698,34.022877
+  </coordinates>
+ </LineString>
+ 
+  <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+</Document></kml>
